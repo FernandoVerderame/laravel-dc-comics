@@ -15,8 +15,8 @@
         <div class="comic-image">
 
             <div class="thumb">
-                <img src="{{ $show['thumb'] }}" alt="{{ $show['title'] }}">
-                <div class="type">{{ $show['type'] }}</div>
+                <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}">
+                <div class="type">{{ $comic->type }}</div>
                 <div class="view">View Gallery</div>
             </div>
             
@@ -30,15 +30,15 @@
     <div class="wrapper-top">
 
         <div class="description">
-            <h1>{{ $show['title'] }}</h1>
+            <h1>{{ $comic->title }}</h1>
             <div class="available-bar">
                 <div class="left-bar">
-                    <div class="price">U.S. Price: <span>{{ $show['price'] }}</span></div>
+                    <div class="price">U.S. Price: <span>{{ $comic->price }}</span></div>
                     <div class="available">AVAILABLE</div>
                 </div>
                 <div class="check">Check Availability <i class="fa-solid fa-sort-down"></i></div>
             </div>
-            <p>{{ $show['description'] }}</p>
+            <p>{{ $comic->description }}</p>
         </div>
         <div class="advertisement">
             <div class="adv">ADVERTISEMENT</div>
@@ -60,20 +60,12 @@
 
                 <div class="artists">
                     <div class="art-writ">Art by:</div>
-                    <ul>
-                        @foreach ($show['artists'] as $artist )
-                        <li>{{ $artist }}@if(!$loop->last),@else.@endif </li>
-                        @endforeach
-                    </ul>
+                    <div>{{ $comic->artists }}</div>
                 </div>
 
                 <div class="artists">
                     <div class="art-writ writers">Written by:</div>
-                    <ul>
-                        @foreach ($show['writers'] as $writer )
-                        <li>{{ $writer }}<span>@if(!$loop->last),@else.@endif</span></li>
-                        @endforeach
-                    </ul>
+                    <div>{{ $comic->writers }}</div>
                 </div>
 
             </div>
@@ -81,9 +73,9 @@
             <div class="specs-info">
                 <h3>Specs</h3>
 
-                <div class="spec">Series: <span class="series">{{$show['series']}}</span></div>
-                <div class="spec">U.S. Price: <span class="price">{{$show['price']}}</span></div>
-                <div class="spec">On Sale Date: <span class="sale-date">{{ $show['sale_date']/*->format('Mmm-dd-YYYY')*/ }}</span></div>
+                <div class="spec">Series: <span class="series">{{$comic->series}}</span></div>
+                <div class="spec">U.S. Price: <span class="price">{{$comic->price}}</span></div>
+                <div class="spec">On Sale Date: <span class="sale-date">{{ $comic->sale_date/*->format('Mmm-dd-YYYY')*/ }}</span></div>
 
             </div>
             
