@@ -1,0 +1,27 @@
+@use 'resources/scss/vars' as *;
+
+#shopping {
+    background-color: $blue;
+    padding: 50px 0;
+
+    .shopping-container {
+        padding: 0 25px;
+        display: flex;
+        justify-content: space-between;
+
+        .shopping-card {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img {
+                height: 50px;
+            }
+        }
+
+        h3 {
+            color: white;
+            font-size: 15px;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@use 'resources/scss/vars' as *;
+
+header {
+    background-color: white;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.navbar-logo {
+    padding: 20px 0;
+
+    img {
+        height: 80px;
+    }
+}
+
+.navbar-links ul {
+    display: flex;
+
+    a {
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 15px 12px;
+
+        &:hover {
+            background-color: $blue;
+            transition: .4s;
+        }
+
+        &.active {
+            color: $blue;
+            border-bottom: 3px solid $blue;
+        }
+    }
+}

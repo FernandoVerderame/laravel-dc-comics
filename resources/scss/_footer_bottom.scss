@@ -1,0 +1,40 @@
+@use 'resources/scss/vars' as *;
+
+.footer-bottom {
+    background-color: #303030;
+    padding: 50px;
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.sign-up-button a {
+    font-size: 20px;
+    color: white;
+    border: $blue 2px solid;
+    padding: 15px;
+
+    &:hover {
+        background-color: $blue;
+        transition: .4s;
+    }
+}
+
+h3 {
+    font-size: 20px;
+    color: $blue;
+}
+
+.social-buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    ul {
+        display: flex;
+        gap: 20px;
+    }
+}

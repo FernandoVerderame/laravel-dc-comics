@@ -1,0 +1,213 @@
+@use 'resources/scss/vars' as *;
+
+#thumb-sec {
+    height: 80px;
+    background-color: $blue;
+
+    .container {
+        position: relative;
+    }
+
+    .comic-image {
+        position: absolute;
+        bottom: -60px;
+        left: 70px;
+    }
+
+    .thumb {
+        width: 190px;
+        height: 280px;
+        border: 1px solid white;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: white;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .type {
+            position: absolute;
+            top: 0;
+            background-color: $blue;
+            padding: 2px 4px;
+        }
+
+        .view {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: $blue;
+            text-align: center;
+            padding: 2px 4px;
+        }
+    }
+}
+
+#comic-detail {
+    padding: 60px 0;
+
+    .wrapper-top {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+
+        .description {
+            flex-basis: 60%;
+
+            h1 {
+                font-size: 28px;
+                color: #003F5E;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+
+            .available-bar {
+                display: flex;
+                background-color: #55BA59;
+                padding: 0 15px;
+                margin-bottom: 15px;
+                border-bottom: 1px solid black;
+
+                .left-bar {
+                    display: flex;
+                    flex-basis: 75%;
+                    justify-content: space-between;
+                    padding-right: 20px;
+                    border-right: 1px solid black;
+
+                    .price {
+                        color: #BAFD8B;
+                        padding-top: 15px;
+
+                        span {
+                            color: white;
+                        }
+                    }
+
+                    .available {
+                        color: #BAFD8B;
+                        padding: 15px 0;
+                    }
+                }
+
+                .check {
+                    flex-basis: 25%;
+                    padding-left: 20px;
+                    padding-top: 15px;
+                    color: white;
+
+                    .fa-sort-down {
+                        position: relative;
+                        bottom: 3px;
+                        padding-left: 5px;
+                    }
+                }
+            }
+
+            p {
+                line-height: 25px;
+            }
+        }
+
+        .advertisement {
+            flex-basis: 25%;
+            text-align: right;
+
+            .adv {
+                margin-bottom: 5px;
+                font-weight: 900;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+#comic-info {
+    background-color: #F6F6F6;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    border-top: 1px solid #E3E3E3;
+
+    .wrapper-bottom {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+
+        .talent-info {
+            color: #003F5E;
+            flex-basis: 40%;
+
+            .artists {
+                display: flex;
+                padding: 10px 0;
+                border-bottom: 1px solid #E3E3E3;
+
+                .art-writ {
+                    font-size: 14px;
+                    font-weight: 800;
+                    margin-right: 120px;
+
+                    &.writers {
+                        margin-right: 95px;
+                    }
+                }
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    line-height: 8px;
+                    font-weight: 800;
+
+                    li {
+                        font-size: 13px;
+                        color: $blue;
+                    }
+                }
+            }
+        }
+
+        .specs-info {
+            flex-basis: 40%;
+            color: #003F5E;
+
+            .spec {
+                font-size: 14px;
+                font-weight: 800;
+                padding: 10px 0;
+                border-bottom: 1px solid #E3E3E3;
+
+                .series {
+                    color: $blue;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    margin-left: 100px;
+                }
+
+                .price {
+                    color: black;
+                    margin-left: 80px;
+                }
+
+                .sale-date {
+                    color: black;
+                    margin-left: 60px;
+                }
+            }
+        }
+
+        h3 {
+            color: #003F5E;
+            font-weight: 600;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #E3E3E3;
+        }
+    }
+}
