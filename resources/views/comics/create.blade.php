@@ -12,5 +12,14 @@
     </div>
 </div>
 
+<div class="card-body">
+    <form action="" method="">
+        <div class="input-section">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" placeholder="Ex.: Suicide Squad Vol.3 Rouges">
+        </div>
+    </form>
+</div>
+
 </section>
 @endsection
