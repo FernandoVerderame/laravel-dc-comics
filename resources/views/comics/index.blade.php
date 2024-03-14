@@ -25,6 +25,9 @@
             <div class="button">
                 <a href="#">Lead More</a>
             </div>
+            <div class="button">
+                <a href="{{ route('comics.create') }}">Add New Comic</a>
+            </div>
         </div>
 </section>
 @endsection
