@@ -13,7 +13,8 @@
 </div>
 
 <div class="card-body">
-    <form action="" method="">
+    <form action="{{ route('comics.store') }}" method="POST">
+        @csrf
 
         <div class="input-section">
             <label for="title">Title</label>
