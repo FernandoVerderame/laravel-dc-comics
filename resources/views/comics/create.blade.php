@@ -40,6 +40,11 @@
             <input type="text" name="series" id="series" placeholder="Ex.: BATMAN">
         </div>
 
+        <div class="input-section">
+            <label for="sale_date">Sale Date</label>
+            <input type="text" name="sale_date" id="sale_date" placeholder="Ex.: 2018-10-03">
+        </div>
+
     </form>
 </div>
 
