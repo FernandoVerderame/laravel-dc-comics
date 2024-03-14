@@ -45,6 +45,11 @@
             <input type="text" name="sale_date" id="sale_date" placeholder="Ex.: 2018-10-03">
         </div>
 
+        <div class="input-section">
+            <label for="type">Type</label>
+            <input type="text" name="type" id="type" placeholder="Ex.: Comic Book">
+        </div>
+
     </form>
 </div>
 
