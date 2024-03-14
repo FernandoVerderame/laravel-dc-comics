@@ -30,6 +30,18 @@
 
     .card-body {
 
+        .errors-alert {
+            background-color: rgb(233, 101, 101);
+            padding: 20px;
+            width: 30%;
+            margin-top: 20px;
+            border-radius: 10px;
+
+            h4 {
+                color: black;
+            }
+        }
+
         form {
 
             .input-section {
