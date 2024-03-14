@@ -1,0 +1,25 @@
+@use 'resources/scss/vars' as *;
+
+.card-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 35px;
+        color: $blue;
+    }
+
+    .button {
+        margin: 40px 0;
+
+        a {
+            font-size: 18px;
+            text-transform: uppercase;
+            color: white;
+            width: 200px;
+            padding: 10px 50px;
+            background-color: $blue;
+        }
+    }
+}
