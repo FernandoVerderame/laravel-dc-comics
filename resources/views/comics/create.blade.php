@@ -60,6 +60,11 @@
             <input type="text" name="writers" id="writers" placeholder="Ex.: Brad Meltzer, Tom King, Scott Snyder...">
         </div>
 
+        <div class="form-buttons">
+            <button class="btn-reset" type="reset">Reset</button>
+            <button class="btn-save" type="submit">Save</button>
+        </div>
+
     </form>
 </div>
 
