@@ -25,6 +25,11 @@
             <textarea name="description" id="description" rows="3"></textarea>
         </div>
 
+        <div class="input-section">
+            <label for="thumb">Thumbnail</label>
+            <input type="url" name="thumb" id="thumb" placeholder="Ex.: https:://...">
+        </div>
+
     </form>
 </div>
 
