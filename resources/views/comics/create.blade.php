@@ -35,6 +35,11 @@
             <input type="text" name="price" id="price" placeholder="Ex.: $16.99">
         </div>
 
+        <div class="input-section">
+            <label for="series">Series</label>
+            <input type="text" name="series" id="series" placeholder="Ex.: BATMAN">
+        </div>
+
     </form>
 </div>
 
