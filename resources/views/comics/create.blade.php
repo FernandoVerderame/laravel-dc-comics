@@ -30,6 +30,11 @@
             <input type="url" name="thumb" id="thumb" placeholder="Ex.: https:://...">
         </div>
 
+        <div class="input-section">
+            <label for="price">Price</label>
+            <input type="text" name="price" id="price" placeholder="Ex.: $16.99">
+        </div>
+
     </form>
 </div>
 
