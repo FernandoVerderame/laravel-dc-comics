@@ -55,6 +55,11 @@
             <input type="text" name="artists" id="artists" placeholder="Ex.: José Luis García-López, Clay Mann, Rafael Albuquerque...">
         </div>
 
+        <div class="input-section">
+            <label for="writers">Writers</label>
+            <input type="text" name="writers" id="writers" placeholder="Ex.: Brad Meltzer, Tom King, Scott Snyder...">
+        </div>
+
     </form>
 </div>
 
