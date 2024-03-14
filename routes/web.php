@@ -19,10 +19,18 @@ Route::get('/', function () {
 })->name('characters');
 
 
-// Comics routes
+// Comics routes list
 Route::get('/comics', [ComicController::class, 'index'])->name('comics.index');
+
+// Create comic route
 Route::get('/comics/create', [ComicController::class, 'create'])->name('comics.create');
+
+// Single comic route
 Route::get('/comics/{comic}', [ComicController::class, 'show'])->name('comics.show');
+
+// Save comic route into db
+Route::post('/comics', [ComicController::class, 'store'])->name('comics.store');
+
 
 Route::get('/movies', function () {
     return view('movies');
