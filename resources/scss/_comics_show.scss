@@ -210,4 +210,23 @@
             border-bottom: 1px solid #E3E3E3;
         }
     }
+
+    .add-btn {
+        display: flex;
+        justify-content: center;
+
+        .button {
+            margin-top: 60px;
+
+            a {
+                font-size: 18px;
+                text-transform: uppercase;
+                color: white;
+                width: 200px;
+                padding: 10px 50px;
+                background-color: $blue;
+            }
+
+        }
+    }
 }

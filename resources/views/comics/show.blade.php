@@ -80,7 +80,13 @@
             </div>
             
         </div>
-        
+
+        <div class="add-btn">
+            <div class="button">
+                <a href="{{ route('comics.edit', $comic->id) }}">Edit Comic</a>
+            </div>
+        </div>
+
     </div>
 </section>
 
