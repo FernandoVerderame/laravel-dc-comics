@@ -20,3 +20,14 @@ Ci servirà una rotta per il form e un'altra per l'effettiva creazione del film 
 Aiutatevi con slide e documentazione!
 
 BONUS: Provare a implementare una minima validazione come visto stamattina!
+
+## Esercizio di oggi: Laravel CRUD Edit & Update
+Proseguiamo con l'esercizio Comics e aggiungiamo la possibilità di modificare un fumetto!
+
+Ci servirà una rotta per il form e un'altra per l'effettiva modifica del film nel database!
+
+Aiutatevi con slide e documentazione!
+
+BONUS: 
+- Provare a implementare la validazione come visto stamattina!
+- Provare a unire i form di edit e create.
