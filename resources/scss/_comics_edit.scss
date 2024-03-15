@@ -1,1 +1,97 @@
 @use 'resources/scss/vars' as *;
+
+#edit-comic {
+    padding: 50px;
+
+    .card-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+
+        h1 {
+            font-size: 35px;
+            color: $blue;
+        }
+
+        .button {
+            margin: 40px 0;
+
+            a {
+                font-size: 18px;
+                text-transform: uppercase;
+                color: white;
+                width: 200px;
+                padding: 10px 50px;
+                background-color: $blue;
+            }
+        }
+    }
+
+    .card-body {
+
+        .errors-alert {
+            background-color: rgb(233, 101, 101);
+            padding: 20px;
+            width: 30%;
+            margin-top: 20px;
+            border-radius: 10px;
+
+            h4 {
+                color: black;
+            }
+        }
+
+        form {
+
+            .input-section {
+                display: flex;
+                flex-direction: column;
+                margin: 20px 0;
+
+                label {
+                    font-size: 25px;
+                    font-weight: 800;
+                    color: $blue;
+                    margin-bottom: 5px;
+                }
+
+                input {
+                    font-size: 16px;
+                    padding: 10px;
+                    border-radius: 10px;
+                    width: 50%;
+                }
+
+                textarea {
+                    font-size: 16px;
+                    padding: 10px;
+                    border-radius: 10px;
+                    width: 50%;
+                }
+            }
+
+            .form-buttons {
+                padding-top: 20px;
+                border-top: 1px solid black;
+
+                button {
+                    font-size: 16px;
+                    color: white;
+                    padding: 10px;
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    &.btn-reset {
+                        background-color: $blue;
+                        margin-right: 10px;
+                    }
+
+                    &.btn-save {
+                        background-color: green;
+                    }
+                }
+            }
+        }
+    }
+}
