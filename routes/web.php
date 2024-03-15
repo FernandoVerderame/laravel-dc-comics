@@ -28,6 +28,9 @@ Route::get('/comics/create', [ComicController::class, 'create'])->name('comics.c
 // Single comic route
 Route::get('/comics/{comic}', [ComicController::class, 'show'])->name('comics.show');
 
+// Edit comic page
+Route::get('/comics/{comic}/edit', [ComicController::class, 'edit'])->name('comics.edit');
+
 // Save comic route into db
 Route::post('/comics', [ComicController::class, 'store'])->name('comics.store');
 
