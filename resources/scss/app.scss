@@ -1,5 +1,3 @@
-// @import '~bootstrap/scss/bootstrap';
-
 @use 'vars';
 @use 'fonts';
 @use 'reset';
@@ -14,3 +12,5 @@
 @use 'shopping';
 @use 'footer_top';
 @use 'footer_bottom';
+
+@import '~bootstrap/scss/bootstrap';

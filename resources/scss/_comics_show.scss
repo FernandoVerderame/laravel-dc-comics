@@ -241,14 +241,13 @@
             background-color: $blue;
         }
 
-        input {
+        .delete-button {
             font-size: 18px;
             text-transform: uppercase;
             color: white;
             padding: 10px 50px;
             background-color: red;
             border: none;
-            cursor: pointer;
         }
     }
 }
