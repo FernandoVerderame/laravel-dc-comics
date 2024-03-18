@@ -27,6 +27,10 @@
 
 <section id="comic-detail" class="container">
 
+    <div class="button">
+        <a class="button" href="{{ route('comics.index') }}">Back to Comics</a>
+    </div>
+
     <div class="wrapper-top">
 
         <div class="description">
