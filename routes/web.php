@@ -37,6 +37,9 @@ Route::post('/comics', [ComicController::class, 'store'])->name('comics.store');
 // Save edit comic route into db
 Route::put('/comics/{comic}', [ComicController::class, 'update'])->name('comics.update');
 
+// Delete comic from db
+Route::delete('/comics/{comic}', [ComicController::class, 'destroy'])->name('comics.destroy');
+
 Route::get('/movies', function () {
     return view('movies');
 })->name('movies');
