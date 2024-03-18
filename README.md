@@ -31,3 +31,19 @@ Aiutatevi con slide e documentazione!
 BONUS: 
 - Provare a implementare la validazione come visto stamattina!
 - Provare a unire i form di edit e create.
+
+## Esercizio di oggi: Laravel CRUD Destroy & Validation
+Proseguiamo con l'esercizio Comics e aggiungiamo la possibilità di eliminare un fumetto!
+
+Ci servirà una rotta per l'effettiva eliminazione del fumetto nel database e un bottone per richiamarla!
+
+Aggiungiamo poi una validazione alla creazione e alla modifica se non lo avete già fatto.
+
+Aiutatevi con slide e documentazione!
+
+BONUS:
+- Chiedere conferma all'utente quando prova ad eliminare un fumetto.
+- Provare ad effettuare la validazione con le FormRequest.
+- Provare ad implementare le soft deletes.
+
+SUPER BONUS: Provare a usare la modale di Bootstrap per chiedere conferma della cancellazione.
